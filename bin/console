@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
 require "pry"
+
 require_relative "../system/container"
+require_relative "../system/deps"
 
 Pry.start

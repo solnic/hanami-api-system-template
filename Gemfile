@@ -8,6 +8,11 @@ gem "dry-types"
 gem "dry-monitor"
 gem "warning"
 
+# persistence
+gem "sqlite3"
+gem "rom"
+gem "rom-sql"
+
 # web
 gem "puma"
 gem "hanami-api", "~> 0.1"
@@ -25,6 +30,7 @@ group :development, :test do
 end
 
 group :test do
+  gem "rom-factory"
   gem "rspec"
   gem "rack-test"
   gem "capybara"
