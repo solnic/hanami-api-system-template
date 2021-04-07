@@ -7,7 +7,7 @@ Rake.add_rakelib "lib/tasks"
 require "rom/sql/rake_task"
 
 task :environment do
-  require_relative "system/boot"
+  require_relative "system/container"
 end
 
 namespace :db do
